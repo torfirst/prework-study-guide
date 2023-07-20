@@ -7,21 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
   </head>
+
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img class="header-img" src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
           <li>The head element contains information about the webpage, such as:</li>
-          <ul>
-            <li>Various pieces of metadata, such as: the character set used, keywords for SEO, a web page description, the author, viewport, and if the document refreshes after a set period of time.</li>
-            <li>CSS style information for that page only.</li>
+          <ul class="nested-ul">
+            <li>Various pieces of metadata.</li>
+              <ul class="nested-ul">
+                <li>For example: the character set used, keywords for SEO, a web page description, the author, viewport, and optionally, setting the document to refresh after a set period of time.</li>
+              </ul>
+            <li>CSS style information for that page only, if applicable.</li>
             <li>An external CSS style sheet, if there is one.</li>
-            <li>The title of the page, which is displayed on the browser tab or toolbar.</li>
+            <li>The title of the page, which is displayed on the browser tab.</li>
           </ul>
           <li>The body element represents the visible content shown to the user.</li>
           <li>The footer element typically will display copyright, contact info, a sitemap, and navigation. </li>
@@ -33,8 +38,9 @@
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <img src="https://courses.bootcampspot.com/courses/4335/files/2645640/preview" alt="Image that defines the difference between margin, border, and padding." />
           <li>A period preceding a class name designates it as a class selector.</li>
-          <li>* applies the respective style property assignments to all elements on the page.</li>
+          <li>* is a selector that applies the style properties within its declaration to <u>all</u> elements on the page.</li>
         </ul>
       </section>
 
@@ -55,7 +61,18 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here.</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>A "for" loop contains three important statements:</li>
+            <ol>
+              <li>The first statement determines the starting point for our loop.</li>
+              <ul class="nested-ul">
+                <li>For example, this can be declaring a variable, and giving it a value of the first value in an array.</li>
+              </ul>
+              <li>The second statement is the condition.</li>
+              <li>The final statement is what allows the array to iterate over each item.</li>
+            </ol>
+          <li>Unlike "for" loops, functions do not automatically execute. Functions must be called after being defined. Functions can be called as many times as needed.</li>
         </ul>
       </section>
     </main>
@@ -63,5 +80,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
