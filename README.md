@@ -14,7 +14,7 @@ There are four sections of notes to review for four topics: HTML, CSS, JavaScrip
 
 ## Credits
 
-I learned how to build most of this webpage from the boot camp prework instructions. I also used some of the knowledge that I learned on freeCodeCamp to create the gradient in the header/footer, as well as link an image in the CSS section. 
+I learned how to build most of this webpage from the boot camp prework instructions. I also used some of the knowledge that I learned on freeCodeCamp to create the gradient in the header/footer, as well as link an image in the CSS section. The image I used is from one of the modules in the UCI bootcamp prework. 
 
 ## License
 
